@@ -1,4 +1,6 @@
-const liff = require('@line/liff');
+import liff from "@line/liff";
+
+liff.init({ liffId: "1655727472-xvE2Zm18" });
 
 window.onload = function () {
   const useNodeJS = false; // if you are not using a node server, set this value to false
