@@ -1,4 +1,4 @@
-import liff from "@line/liff";
+const liff = require('@line/liff');
 
 window.onload = function () {
   const useNodeJS = true; // if you are not using a node server, set this value to false
