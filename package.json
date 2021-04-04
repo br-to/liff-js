@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "@line/liff": "^2.8.1"
+    "@line/liff": "^2.8.1",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0"
   }
 }
