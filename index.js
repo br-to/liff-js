@@ -6,7 +6,7 @@ window.onload = function () {
       if (liff.isLoggedIn() && liff.isInClient()) {
         alert(liff.getAccessToken());
       } else {
-        liff.login();
+        alert("error");
       }
       },
       (error) => {
